@@ -13,6 +13,7 @@ jobs:
         
           echo *** INSTALL ***
           sudo apt-get update
+          sudo spt intsall python3-pip
           sudo apt install python3-pytest
         
           echo *** INSTALL ***
