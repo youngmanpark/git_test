@@ -1,0 +1,22 @@
+name: git_prac
+on: [push]
+jobs:
+  git_prac:
+    runs-on: ubuntu-20.04
+    steps:
+      - run:  |
+          echo *** LOAD ***
+          sudo mkdir -p C:\Users\yjc\Desktop\git_prac\
+          sudo git clone https://github.com/youngmanpark/git_test.git C:\Users\YM\OneDrive - skuniv.ac.kr\바탕 화면\git_test\
+          cd C:\Users\yjc\Desktop\git_prac\
+          echo *** LOAD ***
+        
+          echo *** INSTALL ***
+          sudo apt-get update
+          sudo apt install python3-pytest
+        
+          echo *** INSTALL ***
+        
+          echo *** TEST ***
+          pytest-3 test_bench.py --disable-warnings
+          echo *** TEST ***
