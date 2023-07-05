@@ -8,7 +8,7 @@ jobs:
           echo *** LOAD ***
           sudo mkdir -p /home/git_test
           sudo git clone https://github.com/youngmanpark/git_test.git /home/git_test/
-          cd home/git-test
+          cd /home/git-test/
           echo *** LOAD ***
         
           echo *** INSTALL ***
