@@ -6,9 +6,9 @@ jobs:
     steps:
       - run:  |
           echo *** LOAD ***
-          sudo mkdir -p C:\Users\yjc\Desktop\git_prac\
+          sudo mkdir -p C:\Users\YM\OneDrive - skuniv.ac.kr\바탕 화면\git_test\
           sudo git clone https://github.com/youngmanpark/git_test.git C:\Users\YM\OneDrive - skuniv.ac.kr\바탕 화면\git_test\
-          cd C:\Users\yjc\Desktop\git_prac\
+          cd C:\Users\YM\OneDrive - skuniv.ac.kr\바탕 화면\git_test\
           echo *** LOAD ***
         
           echo *** INSTALL ***
